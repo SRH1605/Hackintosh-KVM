@@ -1,10 +1,3 @@
-<!--
-WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
-OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
-  virsh edit osx_i440fx
-or other application using the libvirt API.
--->
-
 <domain type='kvm' xmlns:qemu='http://libvirt.org/schemas/domain/qemu/1.0'>
   <name>osx_i440fx</name>
   <uuid>cea8167c-7ba9-4af5-98c2-e482cb372bdc</uuid>
