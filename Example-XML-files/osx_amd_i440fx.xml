@@ -10,22 +10,9 @@ or other application using the libvirt API.
   <uuid>cea8167c-7ba9-4af5-98c2-e482cb372bdc</uuid>
   <memory unit='KiB'>8390656</memory>
   <currentMemory unit='KiB'>8390656</currentMemory>
-  <vcpu placement='static'>10</vcpu>
-  <cputune>
-    <vcpupin vcpu='0' cpuset='2'/>
-    <vcpupin vcpu='1' cpuset='3'/>
-    <vcpupin vcpu='2' cpuset='4'/>
-    <vcpupin vcpu='3' cpuset='5'/>
-    <vcpupin vcpu='4' cpuset='6'/>
-    <vcpupin vcpu='5' cpuset='7'/>
-    <vcpupin vcpu='6' cpuset='8'/>
-    <vcpupin vcpu='7' cpuset='9'/>
-    <vcpupin vcpu='8' cpuset='10'/>
-    <vcpupin vcpu='9' cpuset='11'/>
-    <emulatorpin cpuset='0-1'/>
-  </cputune>
+  <vcpu placement='static'>8</vcpu>
   <os>
-    <type arch='x86_64' machine='pc-i440fx-2.12'>hvm</type>
+    <type arch='x86_64' machine='pc-i440fx-3.1'>hvm</type>
     <loader readonly='yes' type='pflash'>/home/srh/Documents/OVMF_CODE.fd</loader>
     <nvram>/var/lib/libvirt/qemu/nvram/osx_VARS.fd</nvram>
     <bootmenu enable='yes'/>
